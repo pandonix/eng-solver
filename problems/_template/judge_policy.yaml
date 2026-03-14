@@ -1,0 +1,28 @@
+must_pass:
+  problem_definition_stable: true
+  key_constraints_addressed: true
+  contradiction_count_max: 0
+  unresolved_blockers_count_max: 1
+  evidence_coverage_min: 0.75
+
+weights:
+  correctness: 0.25
+  feasibility: 0.25
+  evidence_quality: 0.20
+  implementation_clarity: 0.15
+  cost_fit: 0.10
+  residual_risk: 0.05
+
+promotion_rule:
+  min_total_score: 0.82
+  better_than_previous_by: 0.05
+
+iterate_rule:
+  if_missing_official_support_for_key_claims: true
+  if_alternative_not_compared: true
+  if_key_risk_not_actionable: true
+
+reject_rule:
+  if_solution_violates_constraints: true
+  if_core_claims_conflict: true
+  if_evidence_is_mostly_unsourced: true

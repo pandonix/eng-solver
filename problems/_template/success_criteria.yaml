@@ -1,0 +1,23 @@
+business_goal:
+  - Reviewable engineering recommendation
+  - Recommendation fits known engineering and business constraints
+
+must_have:
+  - Problem definition is clear
+  - Constraints are explicit
+  - Recommendation is compared against alternatives
+  - Key claims are traceable to evidence
+  - Risks and open questions are visible
+  - There is an implementation path or phased rollout idea
+
+nice_to_have:
+  - Industry references
+  - Phase-by-phase rollout notes
+  - Complexity or cost estimates
+
+acceptance:
+  min_evidence_count: 6
+  min_source_diversity: 3
+  require_alternative_comparison: true
+  require_risk_section: true
+  require_implementation_path: true

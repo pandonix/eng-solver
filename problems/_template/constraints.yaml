@@ -1,0 +1,15 @@
+time_budget:
+  initial_draft_minutes: 45
+  per_iteration_minutes: 20
+
+engineering_constraints:
+  tech_stack: []
+  deployment: ""
+  team_size: null
+  allow_new_infra: false
+
+org_constraints:
+  decision_style: architecture-review-first
+  compliance_required: false
+
+forbidden: []
