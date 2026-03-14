@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and local env
+*.log
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Workspace-local problem instances
+# Keep the reusable template tracked, but ignore concrete cases and their outputs.
+/problems/*
+!/problems/_template/
+!/problems/_template/**
